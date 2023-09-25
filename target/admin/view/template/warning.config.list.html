@@ -84,6 +84,7 @@
                             <option value="Email" >Email</option>
                             <option value="WechatWork" >微信企业号</option>
                             <option value="Feishu" >飞书</option>
+                            <option value="DingTalk" >钉钉</option>
                         </select><span class="help-block m-b-none"></span>
                     </div>
                 </div>
@@ -191,6 +192,17 @@
                             <span class="help-block m-b-none">标签ID列表，多个接收者用‘|’分隔，最多支持100个</span>
                         </div>
                     </div>
+                </div>
+
+                <div id="DingTalk_contair" class="warning_param_contair" style="display: none">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">webhook：</label>
+                        <div class="col-sm-9">
+                            <input type="text" name="DingTalk_webhook" id="DingTalk_webhook" value="" class="form-control" placeholder="">
+                            <span class="help-block m-b-none">*钉钉机器人token</span>
+                        </div>
+                    </div>
+
                 </div>
 
                 <div class="form-group">

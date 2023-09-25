@@ -1,4 +1,4 @@
-package warning_test
+package warning
 
 import (
 	"testing"

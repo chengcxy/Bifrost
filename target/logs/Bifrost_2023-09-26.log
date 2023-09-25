@@ -1,0 +1,6 @@
+2023/09/26 05:42:38 darwin don't support dynamic plugin
+2023/09/26 05:42:38 Server started, Bifrost version v2.1.1-beta
+2023/09/26 05:42:41 http: TLS handshake error from 127.0.0.1:53057: remote error: tls: unknown certificate
+2023/09/26 05:42:41 http: TLS handshake error from 127.0.0.1:53058: remote error: tls: unknown certificate
+2023/09/26 05:42:44 http: TLS handshake error from 127.0.0.1:53061: remote error: tls: unknown certificate
+2023/09/26 05:42:44 http: TLS handshake error from 127.0.0.1:53062: remote error: tls: unknown certificate
