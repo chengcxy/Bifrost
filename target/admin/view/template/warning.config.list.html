@@ -374,6 +374,22 @@ function GetWarningParamWechatWork(){
     return result;
 }
 
+function GetWarningParamDingTalk(){
+    var result = {data:{},status:false,msg:"error"}
+    var data = {};
+    var webhook = $("#DingTalk_webhook").val();
+
+    if(webhook == ""){
+        result.msg = "webhook 不能为空";
+        return result;
+    }
+    data["webhook"] = webhook;
+    result.data = data;
+    result.msg = "success";
+    result.status = true;
+    return result;
+}
+
 function CheckParam(Type,data) {
     var url = "/warning/config/check";
     var result = {status:false,msg:""};
@@ -400,6 +416,9 @@ function GetParam(Type) {
             break;
         case "WechatWork":
             data = GetWarningParamWechatWork();
+            break;
+        case "DingTalk":
+            data = GetWarningParamDingTalk();
             break;
         default:
             break;
