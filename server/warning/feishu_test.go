@@ -4,7 +4,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/brokercap/Bifrost/server/warning"
+	_ "github.com/brokercap/Bifrost/server/warning"
 )
 
 func TestFeishuSendWarning(t *testing.T) {
